@@ -1,12 +1,25 @@
 ﻿(function (angular) {
     'use strict';
 
-    var app = angular.module('angularApp', []);
+    var app = angular.module('angularApp', ['ngResource']);
 
-    app.constant('ChuckNorrisDB', 'Hello from Chuck Norris!');
+    app.factory('ChuckNorrisDB', ['$resource',
+        function ($resource) {
+            var Quote = $resource('http://api.icndb.com/jokes/random?limitTo=[:category]', { category: '@category' });
+
+            return Quote;
+        }]);
 
     app.controller('quoteController', ['$scope', 'ChuckNorrisDB', function ($scope, db) {
-        $scope.message = db;
+        $scope.message = '';
+
+        function init() {
+            db.get({ category: 'nerdy' }, function (joke) {
+                $scope.message = joke.value.joke;
+            });
+        }
+
+        init();
     }]);
 
 })(window.angular);

@@ -11,5 +11,8 @@
     <File Path="Scripts\angular.min.js" Url="Scripts/angular.min.js" ReplaceContent="TRUE" />
     <File Path="Scripts\angular.js" Url="Scripts/angular.js" ReplaceContent="TRUE" />
     <File Path="Scripts\quoteApp.js" Url="Scripts/quoteApp.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular-resource.min.js.map" Url="Scripts/angular-resource.min.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular-resource.min.js" Url="Scripts/angular-resource.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular-resource.js" Url="Scripts/angular-resource.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>

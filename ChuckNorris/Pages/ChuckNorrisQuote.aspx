@@ -14,6 +14,7 @@
     <script type="text/javascript" src="/_layouts/15/sp.runtime.js"></script>
     <script type="text/javascript" src="/_layouts/15/sp.js"></script>
     <script type="text/javascript" src="../Scripts/angular.min.js"></script>
+    <script type="text/javascript" src="../Scripts/angular-resource.min.js"></script>
     <script type="text/javascript" src="../Scripts/quoteApp.js"></script>
 
     <script type="text/javascript">
