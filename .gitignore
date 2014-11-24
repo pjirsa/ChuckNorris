@@ -1,0 +1,10 @@
+# manually created by Phil
+packages/
+debug/
+pkg/
+obj/
+bin/
+
+*.suo
+*.user
+
