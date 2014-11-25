@@ -4,7 +4,7 @@
      Name="ChuckNorris"
      ProductID="{b41928ee-cd00-452f-abeb-20e9aba82bb3}"
      Version="1.0.0.0"
-     SharePointMinVersion="16.0.0.0"
+     SharePointMinVersion="15.0.0.0"
 >
   <Properties>
     <Title>ChuckNorris</Title>

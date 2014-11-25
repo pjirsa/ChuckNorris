@@ -5,7 +5,7 @@
 
     app.factory('ChuckNorrisDB', ['$resource',
         function ($resource) {
-            var Quote = $resource('http://api.icndb.com/jokes/random?limitTo=[:category]', { category: '@category' });
+            var Quote = $resource('https://icndb.azurewebsites.net/jokes/random?limitTo=[:category]', { category: '@category' });
 
             return Quote;
         }]);
