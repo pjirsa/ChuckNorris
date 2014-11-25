@@ -41,6 +41,6 @@
     </script>
 </head>
 <body ng-controller="quoteController">
-    <h1>{{message}}</h1>
+    <div class="cn-quote">{{message}}</div>
 </body>
 </html>
